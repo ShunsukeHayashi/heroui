@@ -1,0 +1,57 @@
+{
+  "name": "heroui",
+  "version": "0.1.0",
+  "description": "Autonomous development powered by Agentic OS - HeroUI + Tldraw Canvas Image Generator",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "agentic-os",
+    "autonomous",
+    "heroui",
+    "tldraw",
+    "canvas"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@heroui/react": "2.8.3",
+    "@iconify/react": "latest",
+    "@tldraw/tldraw": "^2.0.0-alpha.17",
+    "framer-motion": "^11.18.2",
+    "idb": "^7.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "uuid": "^9.0.1",
+    "@tailwindcss/postcss": "4.1.11",
+    "@tailwindcss/vite": "4.1.11",
+    "source-map-js": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@types/uuid": "^9.0.7",
+    "@vitejs/plugin-react": "^4.3.4",
+    "@babel/core": "^7.26.10",
+    "@babel/generator": "^7.27.0",
+    "@babel/preset-react": "^7.26.3",
+    "@babel/preset-typescript": "^7.27.0",
+    "@babel/traverse": "^7.27.0",
+    "@babel/types": "^7.27.0",
+    "eslint": "^8.54.0",
+    "postcss": "8.5.6",
+    "tailwindcss": "4.1.11",
+    "tsx": "^4.7.0",
+    "typescript": "5.7.3",
+    "vite": "^6.0.11",
+    "vitest": "^3.2.4"
+  }
+}
